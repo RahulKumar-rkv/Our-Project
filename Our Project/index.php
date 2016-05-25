@@ -5,6 +5,7 @@
 		<meta charset="utf-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<meta name="author" content="Rahul Kumar"/>
+		
 		<title>Shake Ur Hand</title>
 		<link rel="icon" type="image/png" href="images/favicon.png"/>
 		
@@ -19,7 +20,7 @@
 	</head>
 	
 	<body id="myPage" class="container">
-	
+		<div> THIS IS MY WEBSITE</div>
 		<div class="bar">
 			<form class="navbar-form navbar-right" role="search">
 				<div class="form-group">
