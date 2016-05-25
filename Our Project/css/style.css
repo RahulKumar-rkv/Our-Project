@@ -1,0 +1,52 @@
+.bar {
+	width:auto;
+	height:50px;
+	background:#0040FF;
+	text-align:right;
+}
+
+.bar a{
+	padding:20px;
+	text-decoration:none;
+	margin-right:0px;
+	line-height:50px;
+}
+.bar a:hover {
+	padding:20px;
+	text-decoration:none;
+	background:#58D3F7;
+	margin-right:0px;
+}
+.bar form {
+	margin-right:20px;
+}
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.carousel-inner img {
+  width: 100%; /* Set width to 100% */
+  margin: auto;
+  min-height:200px;
+}
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+.carousel-caption {
+  display: none; 
+}
+}
+@media (max-width: 767px) {
+.bar {
+	padding-left:40px;
+	height:140px;
+}
+}
+
+/* Adding style to footer */
+footer {
+  background-color: #2E9AFE;
+  padding: 25px;
+}
